@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <title>Create Account</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 >Create Account</h2>
+        <form id="bookForm">
+            <label for="title">Your name</label>
+            <input type="text" id="title" required><br>
+
+            <label for="author">Mobile number or email</label>
+            <input type="text" id="author" required><br>
+
+            <label for="year">Password</label>
+            <input type="text" id="year" required><br>
+           
+           <div class="a-alert-content">
+            Passwords must be at least 6 characters.
+          </div>
+
+            <label for="isbn">Re-enter Password</label>
+            <input type="text" id="isbn" required><br>
+
+            <button type="button" onclick="validateAndAddBook()">Verify Email</button>
+        </form>
+     <p>By creating an account, you agree to Amazon's <a href="#" >Conditions of Use </a>and <a href="#"> privacy Notice.</a></p>
+        <div>
+            <p>Already have an account? <a href="#">Sign in</a> 
+                Buying for work?<a href="#"> Create a free business account</a></p>
+        </div>
+    </div>
+
+    <script src="p1.js"></script>
+</body>
+</html>
